@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "randomvillagenames",
-  "version": "3.6",
+  "version": "3.7",
 
   "name": "Random Village Names",
   "description": "Gives all villages a random name from a preset list. Uses the Areas mod to display the name in the GUI.",
@@ -23,7 +23,7 @@
     "fabric": "*",
     "minecraft": ">=1.20",
     "java": ">=21",
-    "collective": ">=7.54",
+    "collective": ">=7.78",
     "areas" : ">=4.0"
   },
 
@@ -45,12 +45,9 @@
 	  " Alister",
 	  " Andrean Olgo",
 	  " aternosorg",
-	  " BirdieMiner",
 	  " Cherriesaurus",
-	  " Jack",
-	  " Jeremy Langford",
 	  " Michael W. S.",
-	  " pepe1191",
+	  " Nahuel Fernandez",
 	  " Shana Gitnick",
 	  " Tyler Behl"
   ]
