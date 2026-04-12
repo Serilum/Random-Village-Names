@@ -6,7 +6,7 @@ logoFile="icon.png"
 
 [[mods]]
 modId="randomvillagenames"
-version="4.1"
+version="4.2"
 displayName="Random Village Names"
 displayURL="https://serilum.com/mod/random-village-names"
 authors="Rick South"
@@ -29,7 +29,7 @@ If you would like to contribute too, check out https://serilum.com/donate. Appre
 [[dependencies.randomvillagenames]]
     modId="areas"
     type="required"
-    versionRange="[26.1.2]"
+    versionRange="[6.2,)"
     ordering="NONE"
     side="CLIENT"
 

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "randomvillagenames",
-  "version": "4.1",
+  "version": "4.2",
 
   "name": "Random Village Names",
   "description": "Gives all villages a random name from a preset list. Uses the Areas mod to display the name in the GUI.",
