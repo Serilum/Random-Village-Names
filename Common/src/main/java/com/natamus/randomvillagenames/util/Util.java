@@ -6,7 +6,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.entity.BlockEntity;
-import net.minecraft.world.level.block.entity.BlockEntityType;
+import net.minecraft.world.level.block.entity.BlockEntityTypes;
 import net.minecraft.world.level.block.entity.SignBlockEntity;
 
 import java.util.ArrayList;
@@ -14,10 +14,10 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Util {
-	private static final List<String> zoneprefixes = new ArrayList<String>(Arrays.asList("[na]", "[area]", "[region]", "[zone]"));
+	private static final List<String> zoneprefixes = new ArrayList<>(Arrays.asList("[na]", "[area]", "[region]", "[zone]"));
 
 	public static boolean hasAreasSignNeaby(Level level, BlockPos pos, int radius) {
-		List<BlockPos> signsaround = FABFunctions.getAllTileEntityPositionsNearbyPosition(BlockEntityType.SIGN, radius, level, pos);
+		List<BlockPos> signsaround = FABFunctions.getAllTileEntityPositionsNearbyPosition(BlockEntityTypes.SIGN, radius, level, pos);
 		for (BlockPos signpos : signsaround) {
 			BlockEntity te = level.getBlockEntity(signpos);
 			if (te instanceof SignBlockEntity) {
