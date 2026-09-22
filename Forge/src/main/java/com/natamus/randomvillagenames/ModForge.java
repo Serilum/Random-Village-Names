@@ -27,7 +27,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	ForgeSetVillageSignEvent.registerEventsInBus();
+		ForgeSetVillageSignEvent.registerEventsInBus();
 	}
 
 	private static void setGlobalConstants() {

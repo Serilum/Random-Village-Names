@@ -15,6 +15,7 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.WallSignBlock;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.entity.SignBlockEntity;
+import net.minecraft.world.level.block.entity.SignTextSlot;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.chunk.LevelChunk;
 
@@ -93,7 +94,7 @@ public class SetVillageSignEvent {
 					}
 
 					SignBlockEntity signentity = (SignBlockEntity) te;
-					signentity.setText(signentity.getFrontText().setMessage(0, Component.literal("[Area] 60")), true);
+					signentity.setText(signentity.getText(SignTextSlot.FRONT).asMutable().setLine(0, Component.literal("[Area] 60")).asImmutable(), SignTextSlot.FRONT);
 					TileEntityFunctions.updateTileEntity(serverlevel, signpos, signentity);
 				}
 			}
