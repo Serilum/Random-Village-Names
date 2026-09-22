@@ -1,5 +1,5 @@
 <h2>Random Village Names</h2>
-<p><a href="https://github.com/Serilum/Random-Village-Names"><img src="https://serilum.com/assets/images/logo/random-village-names.png"></a></p><h2>Download</h2>
+<p><a href="https://github.com/Serilum/Random-Village-Names"><img src="https://workflow.serilum.com/web/logo/128/random-village-names.png" width="100" height="100"></a></p><h2>Download</h2>
 <p>You can download Random Village Names on CurseForge and Modrinth:</p><p>&nbsp;&nbsp;CurseForge: &nbsp;&nbsp;<a href="https://curseforge.com/minecraft/mc-mods/random-village-names">https://curseforge.com/minecraft/mc-mods/random-village-names</a><br>&nbsp;&nbsp;Modrinth: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://modrinth.com/mod/random-village-names">https://modrinth.com/mod/random-village-names</a></p>
 <h2>Issue Tracker</h2>
 <p>To keep a better overview of all mods, the issue tracker is located in a separate repository.<br>&nbsp;&nbsp;For issues, ideas, suggestions or anything else, please follow this link:</p>
