@@ -1,22 +1,22 @@
 modLoader="javafml"
 loaderVersion="*"
-license="All rights reserved"
+license="All Rights Reserved"
 issueTrackerURL="https://github.com/Serilum/.issue-tracker/labels/Mod:%20Random%20Village%20Names"
 logoFile="icon.png"
 
 [[mods]]
 modId="randomvillagenames"
-version="4.2"
+version="4.3"
 displayName="Random Village Names"
 displayURL="https://serilum.com/mod/random-village-names"
-authors="Rick South"
+authors="Serilum"
 description='''Gives all villages a random name from a preset list. Uses the Areas mod to display the name in the GUI.
 '''
 credits='''Thank you very much to my Membership sponsors for supporting the development of this mod:  
 
 Andrean Olgo, AnyankaT, aternosorg, Cherriesaurus, Linda Jansen, MWS, Tyler Behl   
 
-If you would like to contribute too, check out https://serilum.com/donate. Appreciate it! <3   
+If you would like to contribute too, check out https://serilum.com/donate Appreciate it! <3   
 '''
 
 [[dependencies.randomvillagenames]]

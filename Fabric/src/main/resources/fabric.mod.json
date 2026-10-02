@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "id": "randomvillagenames",
-  "version": "4.2",
+  "version": "4.3",
 
   "name": "Random Village Names",
   "description": "Gives all villages a random name from a preset list. Uses the Areas mod to display the name in the GUI.",
-  "authors": [ "Rick South" ],
+  "authors": [ "Serilum" ],
   "contact": {
     "homepage": "https://serilum.com/mod/random-village-names",
     "sources": "https://github.com/Serilum/Random-Village-Names",
@@ -16,7 +16,7 @@
   "icon": "icon.png",
 
   "environment": "*",
-  "entrypoints": { "main": [ "com.natamus.randomvillagenames.ModFabric" ] },
+  "entrypoints": { "main": [ "com.serilum.randomvillagenames.ModFabric" ] },
 
   "depends": {
     "fabricloader": ">=0.18.0",
@@ -42,7 +42,7 @@
 	  " ",
 	  "Thank you very much to my Membership sponsors for supporting the development of this mod!",
 	  " ",
-	  "If you would like to contribute too, check out https://serilum.com/donate.",
+	  "If you would like to contribute too, check out https://serilum.com/donate",
 	  " ",
 	  "Membership sponsors:",
 	  " Andrean Olgo",

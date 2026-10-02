@@ -1,9 +1,9 @@
-package com.natamus.randomvillagenames.events;
+package com.serilum.randomvillagenames.events;
 
 import com.natamus.collective.functions.BlockPosFunctions;
 import com.natamus.collective.functions.HashMapFunctions;
 import com.natamus.collective.functions.TileEntityFunctions;
-import com.natamus.randomvillagenames.util.Util;
+import com.serilum.randomvillagenames.util.Util;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.core.SectionPos;

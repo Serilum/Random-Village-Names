@@ -1,9 +1,9 @@
-package com.natamus.randomvillagenames;
+package com.serilum.randomvillagenames;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.randomvillagenames.neoforge.events.NeoForgeSetVillageSignEvent;
-import com.natamus.randomvillagenames.util.Reference;
+import com.serilum.randomvillagenames.neoforge.events.NeoForgeSetVillageSignEvent;
+import com.serilum.randomvillagenames.util.Reference;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
