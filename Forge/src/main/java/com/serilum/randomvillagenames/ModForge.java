@@ -1,9 +1,9 @@
-package com.natamus.randomvillagenames;
+package com.serilum.randomvillagenames;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.randomvillagenames.forge.events.ForgeSetVillageSignEvent;
-import com.natamus.randomvillagenames.util.Reference;
+import com.serilum.randomvillagenames.forge.events.ForgeSetVillageSignEvent;
+import com.serilum.randomvillagenames.util.Reference;
 import net.minecraftforge.eventbus.api.bus.BusGroup;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLLoadCompleteEvent;
@@ -27,7 +27,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	ForgeSetVillageSignEvent.registerEventsInBus();
+		ForgeSetVillageSignEvent.registerEventsInBus();
 	}
 
 	private static void setGlobalConstants() {

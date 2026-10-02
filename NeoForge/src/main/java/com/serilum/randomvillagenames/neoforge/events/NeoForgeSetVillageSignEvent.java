@@ -1,6 +1,6 @@
-package com.natamus.randomvillagenames.neoforge.events;
+package com.serilum.randomvillagenames.neoforge.events;
 
-import com.natamus.randomvillagenames.events.SetVillageSignEvent;
+import com.serilum.randomvillagenames.events.SetVillageSignEvent;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.level.Level;
 import net.neoforged.bus.api.SubscribeEvent;
