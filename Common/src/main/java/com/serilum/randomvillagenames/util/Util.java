@@ -1,4 +1,4 @@
-package com.natamus.randomvillagenames.util;
+package com.serilum.randomvillagenames.util;
 
 import com.natamus.collective.functions.FABFunctions;
 import com.natamus.collective.functions.SignFunctions;

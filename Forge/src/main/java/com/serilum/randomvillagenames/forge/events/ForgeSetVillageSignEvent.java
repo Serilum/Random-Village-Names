@@ -1,6 +1,6 @@
-package com.natamus.randomvillagenames.forge.events;
+package com.serilum.randomvillagenames.forge.events;
 
-import com.natamus.randomvillagenames.events.SetVillageSignEvent;
+import com.serilum.randomvillagenames.events.SetVillageSignEvent;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.level.Level;
 import net.minecraftforge.event.TickEvent;

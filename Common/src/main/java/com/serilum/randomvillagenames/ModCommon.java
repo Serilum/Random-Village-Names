@@ -1,4 +1,4 @@
-package com.natamus.randomvillagenames;
+package com.serilum.randomvillagenames;
 
 
 public class ModCommon {

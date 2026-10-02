@@ -1,9 +1,9 @@
-package com.natamus.randomvillagenames;
+package com.serilum.randomvillagenames;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.randomvillagenames.events.SetVillageSignEvent;
-import com.natamus.randomvillagenames.util.Reference;
+import com.serilum.randomvillagenames.events.SetVillageSignEvent;
+import com.serilum.randomvillagenames.util.Reference;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerChunkEvents;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
