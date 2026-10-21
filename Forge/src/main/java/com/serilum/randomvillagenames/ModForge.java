@@ -2,6 +2,7 @@ package com.serilum.randomvillagenames;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
+import com.serilum.randomvillagenames.forge.config.IntegrateForgeConfig;
 import com.serilum.randomvillagenames.forge.events.ForgeSetVillageSignEvent;
 import com.serilum.randomvillagenames.util.Reference;
 import net.minecraftforge.eventbus.api.bus.BusGroup;
@@ -22,6 +23,8 @@ public class ModForge {
 
 		setGlobalConstants();
 		ModCommon.init();
+
+		IntegrateForgeConfig.registerScreen(modLoadingContext);
 
 		RegisterMod.register(Reference.NAME, Reference.MOD_ID, Reference.VERSION, Reference.ACCEPTED_VERSIONS);
 	}
